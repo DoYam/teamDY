@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.box1{
+    border: 2px solid green;
+    padding: 25px;
+    background-color: #acc270;
+    
+}
+
+.box2{
+    border: 2px solid gray;
+    padding: 25px;
+    border-radius: 30px;
+}
+
+
+.blue{
+    background-color: skyblue;
+}
+
+.main{
+    width: 300px;
+}
