@@ -1,0 +1,7 @@
+li{
+    list-style: none;
+    text-align: center;
+}
+
+.my-box { border:none; padding:10px; width: 936px; text-align: center; margin-left: 280px;}
+.box2{border:1px solid; padding:10px; width: 936px; text-align: center; margin-left: 280px;background-color: green;}
