@@ -1,7 +1,33 @@
 li{
     list-style: none;
     text-align: center;
+    display: inline;
+    padding: 10px;
 }
-
-.my-box { border:none; padding:10px; width: 936px; text-align: center; margin-left: 280px;}
-.box2{border:1px solid; padding:10px; width: 936px; text-align: center; margin-left: 280px;background-color: green;}
+.topbox{
+    border:none;
+    background-color: #EFEFEF;
+}
+.my-box { 
+    border:none;
+    padding:10px; 
+    width: 936px; 
+    text-align: center; 
+    margin-left: 285px;
+}
+.box2{
+    border:1px solid; 
+    padding:10px; 
+    width: 910px; 
+    text-align: center; 
+    margin-left: 300px;
+    background-color: #DBEB94;
+}
+.noborder{
+    border:none;
+    padding:10px; 
+    width: 936px; 
+    text-align: left;
+    margin-left: 280px;
+    margin-bottom: 30px;
+}
