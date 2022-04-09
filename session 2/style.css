@@ -8,6 +8,20 @@ li{
     border:none;
     background-color: #EFEFEF;
 }
+.sns{
+    text-align: right;
+    margin-right: 300px; 
+    margin-top: 50px;
+}
+.firsttitle{
+    font-size: 30px;
+    text-align: center; 
+    font-weight: bold;
+}
+.firstinfo{
+    text-align:center; 
+    margin-top: 30px;
+}
 .my-box { 
     border:none;
     padding:10px; 
@@ -29,5 +43,10 @@ li{
     width: 936px; 
     text-align: left;
     margin-left: 280px;
+    margin-bottom: 30px;
+}
+.img{
+    text-align:center;
+    margin-top:30px;
     margin-bottom: 30px;
 }
