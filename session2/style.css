@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'LeeSeoyun';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* { font-family: 'LeeSeoyun'; }
+
+body {
+    margin: 0;
+    display: grid;
+    grid-template-rows: 80px 1fr 80px;
+    font-family: 'LeeSeoyun';
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+main {
+    padding-top: 80px;
+    display: grid;
+}
+footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    align-items: center;
+}
+
+#logo {
+    height: 100%;
+    padding-left: 20px;
+}
+
+.nav-content {
+    display: grid;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.sns {
+    background-color: white;
+    border-color: white;
+}
+
+a {
+    cursor: grab;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+#food-wrapper {
+    display: grid;
+}
+
+#image-wrapper {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+#food-image {
+    width: 80%;
+}
+
+#result-image {
+    width: 50%;
+}
+
+#recipe-wrapper {
+    display: grid;
+    margin-bottom: -5px;
+}
+
+#ingredients {
+    border: 1px solid #3b86;
+    background-color: rgb(219, 235, 148);
+    text-align: center;
+    margin: 10%;
+    margin-bottom: -5%;
+}
+
+#recipe {
+    padding: 10%;
+}
+
+.recipe {
+    font-size: 15px;
+    margin: 20px;
+}
+
+#ad {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
+    margin-bottom: 100px;
+}
+
+.add-content {
+    display: grid;
+}
+
+p {
+    text-align: center;
+}
+
+.footer-content {
+    display: grid;
+}
+
+.footer-copyright {
+    font-size: 5px;
+    color: #666;
+}
