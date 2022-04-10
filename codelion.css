@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+
+* {
+    font-family: 'Montserrat';
+}
+
+.mainbox{
+    width: 610px;
+    padding: 30px;
+    margin: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #ebebeb;
+    box-shadow: 0 1px 20px 0 rgba(0,0,0,0.1);
+} 
+
+.food-img, picture{
+    width:400px;
+    height:300px;
+    display: block;
+    margin: 0px auto;
+    border: 1px solid yellow;
+}
+
+.titlebox{
+    margin:30px;
+    text-align: center;
+}
+
+h1{
+    font-size:40px;
+    font-weight:bold;
+    text-align:center;
+}
+
+h2{
+    font-size:20px;
+    text-align: left;
+}
+
+.box{
+    width:600px;
+    height:100px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0 1px 20px 0 rgba(0,0,255,0.1);
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding-top: 5px;
+}
+
+.ingredient {
+    width:400px;
+    height:300px;
+    border-radius: 30%;
+    display: block;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+.ingredient-title{
+    font-weight: bold;
+    text-align: center;
+}
+
+.process-box{
+    margin-bottom: 30px;
+}
+
+.together{
+    overflow: hidden;
+}
+
+.together-1{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-bottom: 20px;
+    border: 1px solid yellow;
+    display: block;
+    margin: 0px auto;
+}
+
+.together-2{
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin-bottom: 20px;
+    border: 1px solid yellow;
+    display: block;
+    margin: 0px auto;
+}
+
+.text-1{
+    float: left;
+    width: 100%;
+}
