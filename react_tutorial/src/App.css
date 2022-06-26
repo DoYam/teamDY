@@ -1,0 +1,18 @@
+.App{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+#getArea{
+  background-color: tomato;
+}
+#postArea{
+  background-color: orange;
+}
+
+#patchArea{
+  background-color: yellow;
+}
+
+#deleteArea{
+  background-color: yellowgreen;
+}
