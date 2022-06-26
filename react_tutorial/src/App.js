@@ -6,7 +6,8 @@ function App() {
   const [rooms, setRooms] = useState([])
   const [check, setCheck] = useState(0)
   const roomTitle = useRef(null)
-  const roomPatchTitle = useRef(null)
+  //const roomPatchTitle = useRef(null)
+  const inputRef = useRef([]);
 
   // GET: 전체 방 조회
   useEffect(() => {
@@ -46,10 +47,10 @@ function App() {
       <div key={i}>
         <h2>{rooms[i].title}</h2>
         <p>{rooms[i].start_date}</p>
-        <input ref={roomPatchTitle} type="text" placeholder="수정할 방 이름을 입력해주세요"></input>
+        <input ref={el => (inputRef.current[i] = el)} type="text" placeholder="수정할 방 이름을 입력해주세요"></input>
         <button onClick={() => {
           axios.patch(`http://localhost:8000/room/${rooms[i].id}/`, {
-            title: roomPatchTitle.current.value
+            title: inputRef.current[i].value
           })
           .then((response) => {setCheck(check + 1)})
           .catch(console.log('error!'))}}
